@@ -1,0 +1,24 @@
+.PrivacyPolicy
+{
+    padding: 0;
+    padding-top: 50px;
+}
+.PrivacyPolicy .title{
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 32px;
+}
+.PrivacyPolicy .pargraph
+{
+    font-size: 14px;
+    line-height: 21px;
+}
+.PrivacyPolicy .ContactUs
+{
+    margin-bottom: 32px;
+}
+@media screen and (max-width: 765px) {
+	.PrivacyPolicy .Content {
+padding:0px 24px;
+	}
+}

@@ -1,0 +1,164 @@
+footer {
+	background-color: #001826;
+}
+
+footer h5 {
+	color: #ffff;
+}
+footer p {
+	color: #ffff;
+}
+footer .container {
+	padding: 30px 0px 40px 0px;
+	border-bottom: 1px solid gainsboro;
+}
+
+footer .Packages h5 {
+	margin-bottom: 20px;
+}
+footer.Navigation p {
+	margin-bottom: 20px;
+	margin-bottom: 7px;
+}
+footer .InstgramImg , .FaceBookImg{
+	margin-right: 15px;
+	width: 22px !important;
+}
+/* .FaceBookImg{
+	margin-right: 15px;
+	width: 22px !important;
+} */
+footer .LinkidInImg
+{
+	width: 22px !important;
+
+}
+footer .SocialMedia h5 {
+	margin-bottom: 20px;
+}
+footer .Navigation p {
+	cursor: pointer;
+}
+footer .Packages a {
+	display: block;
+	color: #ffff;
+}
+footer .Packages a:hover {
+	display: block;
+	color: #ffff;
+}
+footer .Navigation a {
+	display: block;
+	color: #ffff;
+	text-decoration: none;
+	font-size: 12px ;
+	margin-bottom: 10px;
+
+}
+footer .Navigation a:hover {
+	display: block;
+
+	color: #ffff;
+}
+footer .ourServices a {
+	display: block;
+	color: #ffff;
+	text-decoration: none;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+footer .ourServices a:hover {
+	display: block;
+
+	color: #ffff;
+}
+footer .ContactInformation .ContactText {
+	color: #ffff;
+	margin-left: 10px;
+}
+footer .ContactInformation > div {
+	margin-bottom: 20px;
+}
+footer .copyRightBar {
+	text-align: center;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: -20px !important;
+	font-size: 10px;
+}
+footer .PrivacyPolicyContainer
+{
+	margin-top: 24px;
+	padding-left:5px ;
+
+}
+footer .PrivacyPolicyContainer a
+{
+	color: #fff;
+	font-size: 12px;
+}
+footer .PrivacyPolicyContainer a:hover
+{
+	color: #fff;
+	font-size: 12px;
+}
+footer .Downloads h5 {
+	margin-bottom: 20px;
+}
+footer .list-unstyled{
+	padding-bottom: 15px;
+	display: flex;
+	color: #fff;
+}
+footer .list-unstyled .location{
+position: relative;
+top: 7px;
+}
+footer .list-unstyled img{ 
+	margin-right: 15px;
+
+}
+
+@media (max-width: 768px) {
+	footer .Navigation {
+		padding-left: 0 !important;
+	}
+	footer .ourServices{
+		margin-left: 0 !important;
+		margin-bottom: 15px;
+	}
+	footer .ContactInformation h5{
+		margin-top: 25px !important;
+		padding-left: 0px !important;
+	}
+	footer {
+		padding-left: 15%;
+	}
+	.footer .col-sm {
+		padding-right: 0;
+		width: 100%;
+	}
+	footer ul {
+		padding: 0px;
+		margin: 0px;
+	}
+
+	footer .SocialMedia h5 {
+		text-align: center;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+
+	
+	footer .SocialMedia span {
+		margin: auto;
+	}
+
+	footer	.ourServices {
+		margin-bottom: 15px;
+	}
+	footer.ContactInformation {
+		margin-bottom: 15px;
+	}
+}

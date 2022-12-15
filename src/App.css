@@ -1,0 +1,52 @@
+/*Start Setting Section*/
+
+/*End Setting Section*/
+
+/*Start of Framework*/
+.f1 {
+	font-size: 37.9px;
+}
+
+.f2 {
+	font-size: 28.43px;
+}
+.f3 {
+	font-size: 18px;
+}
+.f4 {
+	font-size: 16px;
+}
+.f5 {
+	font-size: 12px;
+}
+.font-bold {
+	font-weight: bold;
+}
+.main-Title {
+	font-size: 37.9px;
+	font-weight: 500;
+	margin-bottom: 32px;
+	color: #010101 !important;
+}
+
+.prim-color {
+	color: #666666;
+}
+.section-p {
+	padding-right: 80px;
+	padding-left: 80px;
+}
+a{
+	text-decoration: none !important;
+}
+section {
+	padding-top: 52px;
+	padding-bottom: 72px;
+}
+@media (max-width: 768px) {
+	.section-p {
+		padding-right: 44px;
+		padding-left: 44px;
+	}
+}
+/*End of Framework*/

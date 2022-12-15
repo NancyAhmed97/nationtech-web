@@ -1,0 +1,14 @@
+.about-us img {
+	width: 100%;
+}
+.about-us {
+	background: url("../../../../Assests/images/AdobeStock_244408717.png") bottom
+		right no-repeat;
+}
+
+@media (max-width: 768px) {
+	.about-us {
+		background: url("../../../../Assests/images/aboutUs-mobile.png") bottom
+			right no-repeat;
+	}
+}

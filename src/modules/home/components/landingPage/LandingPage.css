@@ -1,0 +1,67 @@
+.landingPage {
+	background: url("../../../../Assests/images/Group\ 1900.png") top;
+	height: 90vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.landingPage .poweredContainer {
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-content: flex-end;
+}
+
+.landingPage .powered {
+	color: #77e5fc;
+	font-family: "M PLUS Rounded 1c", sans-serif;
+	font-weight: 600;
+	transform: translateY(-20px);
+}
+.landingPage .container-fluid {
+	height: 100%;
+}
+.landingPage .f2 {
+	color: #fff;
+	margin-bottom: 16px;
+}
+.landingPage .row {
+	height: 100%;
+}
+.landingPage .landingText {
+	color: #fff;
+	height: 100% !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.landingPage .btn {
+	padding: 13px 70px;
+	background-color: rgba(105, 204, 225, 54%);
+	color: #fff !important;
+	width: 300px;
+}
+
+.landingPage .btn:hover {
+	padding: 13px 70px;
+	background-color: #69cce1;
+	color: #fff;
+}
+.landingPage .paragraph {
+	line-height: 27px;
+}
+@media (max-width: 768px) {
+	.landingPage .container-fluid {
+		background: rgba(0, 0, 0, 0.3);
+	}
+	.landingPage .landingText {
+		transform: translateY(50px);
+	}
+	.landingPage .powered {
+		transform: translateY(5px);
+		font-size: 16px !important;
+	}
+}
